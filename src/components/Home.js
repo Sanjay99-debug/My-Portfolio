@@ -1,9 +1,9 @@
-import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
-import { FaDownload } from 'react-icons/fa';
-import resumePDF from '../assets/SANJAYYY .pdf'; // Make sure this file exists
-import profileImg from '../assets/IMG_0478.png'; // ✅ Your profile picture
-import '../App.css';
+import React from "react";
+import { TypeAnimation } from "react-type-animation";
+import { FaDownload } from "react-icons/fa";
+import resumePDF from "../assets/SANJAYYY .pdf"; // Make sure this file exists
+import profileImg from "../assets/IMG_0478.png"; // ✅ Your profile picture
+import "../App.css";
 
 export default function Home() {
   return (
@@ -30,13 +30,11 @@ export default function Home() {
         <h2 className="typing-text mb-4 fs-4">
           <TypeAnimation
             sequence={[
-              'Full-Stack Developer',
+              "Full-Stack Developer",
               2000,
-              'React.js & .NET Core Specialist',
+              "React.js & .NET Core Specialist",
               2000,
-              'Cloud & API Integrator',
-              2000,
-              'UI/UX Explorer',
+              "UI/UX Explorer",
               2000,
             ]}
             wrapper="span"
