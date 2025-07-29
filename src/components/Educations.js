@@ -4,28 +4,22 @@ import { FaGraduationCap } from 'react-icons/fa';
 import '../App.css';
 
 const educationList = [
-  {
-    title: "MASTER OF COMPUTER APPLICATION",
-    institution: "CHANDIGARH UNIVERSITY • PUNJAB",
-    year: "2024",
-    description: "Awarded full scholarship for 2 semesters due to grades."
-  },
-  {
+    {
     title: "BACHELOR OF COMPUTER APPLICATIONS",
-    institution: "BANWRILAL BHALOTIA COLLEGE • ASANSOL, WEST BENGAL",
-    year: "2022",
-    description: "Graduated with a CGPA of 9.41."
+    institution: "G.G.N Khalsa College,Ludhiana,Punjab",
+    year: "2019",
+    description: "Graduated with 62%."
   },
   {
     title: "HIGHER SECONDARY EDUCATION",
-    institution: "Minor in Science • MITHANI HIGH SCHOOL • ASANSOL, WESTBENGAL",
-    year: "2019",
-    description: "Completed with focus in science stream."
+    institution: "PAU Lduhiana,Punjab",
+    year: "2016",
+    description: "Completed with focus in Cpmpputer science stream."
   },
   {
     title: "SECONDARY EDUCATION",
-    institution: "SUBHASPALLY BIDYANIKETAN • BURNPUR, ASANSOL",
-    year: "2017",
+    institution: "Senior National High School",
+    year: "2014",
     description: "Completed secondary school education successfully."
   }
 ];

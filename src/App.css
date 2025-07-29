@@ -591,10 +591,11 @@ header {
  
 
 .profile-img {
-  width: 200px;        /* ↓ Reduced from 160px */
-  height: 200px;       /* ↓ Reduced from 160px */
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 10%;  /* 👈 This line will move the focus to upper part */
   border: 3px solid #0ef;
   transition: transform 0.3s ease;
 }

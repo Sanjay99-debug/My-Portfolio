@@ -23,30 +23,30 @@ function Contact() {
               <div className="card-body text-start">
                 <p className="contact-info mb-3">
                   <FaEnvelope className="me-2 icon-warning" />
-                  <a href="mailto:avijitgorai8250@gmail.com">avijitgorai8250@gmail.com</a>
+                  <a href="mailto:avijitgorai8250@gmail.com">sanjayldhsanjay556@gmail.com</a>
                 </p>
                 <p className="contact-info mb-3">
                   <FaPhoneAlt className="me-2 icon-warning" />
-                  <a href="tel:+8509183554">+8509183554</a>
+                  <a href="tel:+8509183554">+91(8146774370)</a>
                 </p>
                 <p className="contact-info mb-3">
                   <FaMapMarkerAlt className="me-2 icon-warning" />
-                  Kolkata, India
+                  Ludhiana, India
                 </p>
                 <p className="contact-info mb-3">
                   <FaLinkedin className="me-2 icon-warning" />
                   <a
-                    href="https://www.linkedin.com/in/avijit-gorai-634a9226b"
+                    href="https://www.linkedin.com/in/sanjay-kumar-8182742a7"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    linkedin.com/in/avijit-gorai-634a9226b
+                    linkedin.com/in/sanjay-kumar-8182742a7
                   </a>
                 </p>
                 <p className="contact-info">
                   <FaWhatsapp className="me-2 icon-warning" />
                   <a
-                    href="https://wa.me/917584076293"
+                    href="https://wa.me/918146774370"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

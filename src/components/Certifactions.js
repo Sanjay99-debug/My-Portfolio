@@ -4,24 +4,25 @@ import { FaCertificate } from 'react-icons/fa';
 import '../App.css';
 
 const certifications = [
+  
+  {
+    title: "MERN Stack",
+    issuer: "Fortec Web Solution",
+    year: "2025",
+    description:
+      "Successfully completed training in MERN Stack(MongoDB,Express.js,React.js,Node.js). I learned to build dynamic and responsive full-stack web applications.Worked on projects involving frontend development with React and backend APIs using Node"
+  },
   {
     title: "ASP.NET Core MVC",
-    issuer: "INFOSYS",
-    year: "2024",
+    issuer: "CS Infotech",
+    year: "2023",
     description:
       "Comprehensive training on scalable web apps using MVC. Topics: routing, controllers, views, model binding, data annotations, form submission, session/state management, authentication, dependency injection, middleware, and Entity Framework Core integration."
   },
   {
-    title: "React JS",
-    issuer: "INFOSYS",
-    year: "2022",
-    description:
-      "Covered React core concepts including component architecture, state/props, hooks, lifecycle, API integration, routing, form handling, and UI responsiveness."
-  },
-  {
-    title: "DITA",
-    issuer: "YOUTH COMPUTER CENTER",
-    year: "2017",
+    title: "Computer Trainee",
+    issuer: "K.S Computer Institute",
+    year: "2016",
     description:
       "Intro to computer fundamentals: Windows, MS Office, internet, email, data management, and troubleshooting for academic/professional use."
   }

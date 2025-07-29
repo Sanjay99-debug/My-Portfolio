@@ -1,6 +1,6 @@
-import React from 'react';
-import '../App.css';
-import profileImg from '../assets/Avi.jpg';
+import React from "react";
+import "../App.css";
+import profileImg from "../assets/coder-is-doing-software-management-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--online-work-conversation-remote-from-home-chat-programmer-character-pack-professionals-illustration.webp";
 
 function About() {
   return (
@@ -14,23 +14,33 @@ function About() {
               src={profileImg}
               alt="Profile"
               className="rounded-circle shadow"
-              style={{ width: '200px', height: '200px', objectFit: 'cover' }}
+              style={{ width: "200px", height: "200px", objectFit: "cover" }}
             />
           </div>
           <div className="col-md-8">
             <div className="card shadow p-4 border-0 bg-white bg-opacity-75">
-              <h4 className="text-dark mb-3">Junior Software Engineer | Full Stack Developer</h4>
+              <h4 className="text-dark mb-3">Full Stack Developer</h4>
               <p className="text-muted">
-                I’m a passionate full-stack developer with hands-on experience in designing and developing web applications using <strong>.NET Core</strong>, <strong>React.js</strong>, <strong>Redux</strong>, <strong>Bootstrap</strong>, <strong>Entity Framework</strong>, and <strong>LINQ</strong>. I currently work at <strong>Shiwansh Solutions</strong> where I contribute to scalable module-based solutions including Admin, Employee, and Employer features.
+                I’m a passionate full-stack developer with hands-on experience
+                in designing and developing web applications using{" "}
+                <strong>.NET Core</strong>, <strong>React.js</strong>,{" "}
+                <strong>Bootstrap</strong>, <strong>Entity Framework</strong>,<strong>SQL Server</strong>. I I
+                currently work at{" "}
+                <strong>
+                  Shiwansh Solutions as FullStack Developer Intern
+                </strong>{" "}
+                where I contribute to scalable module-based solutions including
+                Admin, Employee, and Employer features.
               </p>
+
               <p className="text-muted">
-                During my internship at CodeSphere Pvt. Ltd., I focused on backend development using .NET Core and gained real-world experience in building RESTful APIs and managing database systems.
-              </p>
-              <p className="text-muted">
-                I'm also proficient with tools like <strong>Git</strong>, <strong>Amazon EC2</strong>, and <strong>Amazon S3</strong>, and have strong foundations in C#, JavaScript, HTML5, and CSS3.
+                I'm also proficient with tools like <strong>Git</strong> and<strong>Postman</strong>,
+                have strong foundations in , <strong>HTML5</strong>,<strong>CSS3</strong>,<strong>JAVASCRIPT(ES6)</strong>,<strong>REACT.js</strong>,<strong>NODE.js</strong>,<strong>MONGODB</strong>
               </p>
               <p className="text-muted mb-0">
-                My goal is to build efficient, secure, and maintainable software that delivers value to users. I’m continuously learning, exploring new tech, and growing as a developer.
+                My goal is to build efficient, secure, and maintainable software
+                that delivers value to users. I’m continuously learning,
+                exploring new tech, and growing as a developer.
               </p>
             </div>
           </div>

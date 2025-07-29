@@ -1,8 +1,8 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaDownload } from 'react-icons/fa';
-import resumePDF from '../assets/resume.pdf.pdf'; // Make sure this file exists
-import profileImg from '../assets/profile.jpg.jpg'; // ✅ Your profile picture
+import resumePDF from '../assets/SANJAYYY .pdf'; // Make sure this file exists
+import profileImg from '../assets/IMG_0478.png'; // ✅ Your profile picture
 import '../App.css';
 
 export default function Home() {
@@ -18,13 +18,13 @@ export default function Home() {
         <div className="profile-wrapper mb-4">
           <img
             src={profileImg}
-            alt="Avijit Gorai"
+            alt="Sanjay Kumar"
             className="profile-img shadow"
           />
         </div>
 
         <h1 className="display-4 fw-bold mb-3 animate-fade">
-          Hi, I’m <span className="highlight-name">Avijit Gorai</span>
+          Hi, I’m <span className="highlight-name">Sanjay Kumar</span>
         </h1>
 
         <h2 className="typing-text mb-4 fs-4">
@@ -47,7 +47,7 @@ export default function Home() {
 
         <a
           href={resumePDF}
-          download="Avijit_Gorai_Resume.pdf"
+          download="Sanjay-Kumar Resume.pdf"
           className="btn btn-glow btn-lg px-4 py-2 shadow d-inline-flex align-items-center"
         >
           <FaDownload className="me-2" />
