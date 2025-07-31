@@ -1,8 +1,8 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaDownload } from "react-icons/fa";
-import resumePDF from "../assets/SANJAYYY .pdf"; // Make sure this file exists
-import profileImg from "../assets/IMG_0478.png"; // ✅ Your profile picture
+import resumePDF from "../assets/skills/Sanjay Kumar.pdf"; // Make sure this file exists
+import profileImg from "../assets/skills/IMG_0478.png"; // ✅ Your profile picture
 import "../App.css";
 
 export default function Home() {

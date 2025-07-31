@@ -12,15 +12,15 @@ const projectList = [
     responsibilities:
       'Frontend development, backend development, and database design.'
   },
-  {
-    title: 'Employee Payroll System',
-    duration: 'July 2024 – Nov 2024',
-    company: 'Shiwansh Solutions',
-    description:
-      'Manages employee data including personal details, time-off tracking, salary generation, and role-based access. Admins control system setup while employees securely manage their own records.',
-    responsibilities:
-      'Frontend development, backend development, and database design.'
-  },
+  // {
+  //   title: 'Employee Payroll System',
+  //   duration: 'July 2024 – Nov 2024',
+  //   company: 'Shiwansh Solutions',
+  //   description:
+  //     'Manages employee data including personal details, time-off tracking, salary generation, and role-based access. Admins control system setup while employees securely manage their own records.',
+  //   responsibilities:
+  //     'Frontend development, backend development, and database design.'
+  // },
   {
     title: 'JOB PORTAL SYSTEM',
     duration: 'Mar 2024 – Jun 2024',

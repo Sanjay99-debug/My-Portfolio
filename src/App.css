@@ -1,7 +1,7 @@
 /* App.css */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: white;
   scroll-behavior: smooth;
@@ -109,7 +109,7 @@ header {
 }
 
 .nav-link-custom::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 2px;
@@ -136,7 +136,7 @@ header {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -306,7 +306,11 @@ header {
 
 /* Contact */
 .contact-section {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.04));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.04)
+  );
   backdrop-filter: blur(14px);
   padding: 80px 20px;
   border-radius: 20px;
@@ -491,9 +495,6 @@ header {
   }
 }
 
-
-
-
 /* Highlight name with gradient */
 .highlight-name {
   background: linear-gradient(to right, #0ef, #00f9a6);
@@ -517,7 +518,7 @@ header {
 }
 
 .btn-glow::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -588,18 +589,61 @@ header {
     transform: translateY(0);
   }
 }
- 
+
+.profile-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #0ef 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  filter: blur(40px);
+  opacity: 0.6;
+  animation: pulse-glow 2s infinite;
+}
 
 .profile-img {
+  position: relative;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 50% 10%;  /* 👈 This line will move the focus to upper part */
+  object-position: center top;
+  z-index: 1;
   border: 3px solid #0ef;
   transition: transform 0.3s ease;
+  background-color: #000;
 }
 
-.profile-img:hover {
-  transform: scale(1.05);
+/* Optional glowing animation */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.9;
+  }
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.skills-section .card {
+  transition: transform 0.3s ease;
+  background: #ffffff;
+  border-radius: 12px;
 }

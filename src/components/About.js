@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import profileImg from "../assets/coder-is-doing-software-management-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--online-work-conversation-remote-from-home-chat-programmer-character-pack-professionals-illustration.webp";
+import profileImg from "../assets/skills/pf2.webp";
 
 function About() {
   return (
@@ -24,8 +24,8 @@ function About() {
                 I’m a passionate full-stack developer with hands-on experience
                 in designing and developing web applications using{" "}
                 <strong>.NET Core</strong>, <strong>React.js</strong>,{" "}
-                <strong>Bootstrap</strong>, <strong>Entity Framework</strong>,<strong>SQL Server</strong>. I I
-                currently work at{" "}
+                <strong>Bootstrap</strong>, <strong>Entity Framework</strong>,
+                <strong>SQL Server</strong>. I I currently work at{" "}
                 <strong>
                   Shiwansh Solutions as FullStack Developer Intern
                 </strong>{" "}
@@ -34,8 +34,11 @@ function About() {
               </p>
 
               <p className="text-muted">
-                I'm also proficient with tools like <strong>Git</strong> and<strong>Postman</strong>,
-                have strong foundations in , <strong>HTML5</strong>,<strong>CSS3</strong>,<strong>JAVASCRIPT(ES6)</strong>,<strong>REACT.js</strong>,<strong>NODE.js</strong>,<strong>MONGODB</strong>
+                I'm also proficient with tools like <strong>Git</strong> and
+                <strong>Postman</strong>, have strong foundations in ,{" "}
+                <strong>HTML5</strong>,<strong>CSS3</strong>,
+                <strong>JAVASCRIPT(ES6)</strong>,<strong>REACT.js</strong>,
+                <strong>NODE.js</strong>,<strong>MONGODB</strong>
               </p>
               <p className="text-muted mb-0">
                 My goal is to build efficient, secure, and maintainable software
